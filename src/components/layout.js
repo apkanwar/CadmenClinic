@@ -4,6 +4,8 @@ import Cookies from 'js-cookie'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
+import PlasmicTopNav from './plasmic/image_lab_2024/PlasmicTopNav'
+
 
 const Layout = ({ children }) => {
   const router = useRouter()
