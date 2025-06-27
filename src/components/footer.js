@@ -45,8 +45,8 @@ const Footer = () => {
               <p className='text-sm'>240 Queen St W (2nd Floor)</p>
               <p className='text-sm'>Toronto, ON, M5V1Z7</p>
               <p className='text-sm'>
-                <a href='tel:+14165111337' className='text-sm  hover:underline'>
-                (416) 511-1337
+                <a href='tel:+1416551137' className='text-sm  hover:underline'>
+                (416) 551-1137
                 </a>
               </p>
               <a
@@ -136,9 +136,9 @@ const Footer = () => {
         </div>
       </Container>
     </footer>
-     {!router.pathname.includes('/book-now') ? (              
+     {!router.pathname.includes('https://cadmenclinic.ca.zenoti.com/webstoreNew/services') ? (              
       <div className="floating-btn-wrap flex justify-center">
-        <a className="floating-btn shadow-2xl fixed right-4 z-50 bg-quicksand-normal px-5 py-2 font-medium text-white hover:bg-quicksand-dark" href="tel:+14165111337">
+        <a className="floating-btn shadow-2xl fixed right-4 z-50 bg-quicksand-normal px-5 py-2 font-medium text-white hover:bg-quicksand-dark" href="tel:+14165511137">
           <i className="fa-solid fa-phone"></i><span className="ml-3">Questions? Click to call</span>
         </a>
       </div>
